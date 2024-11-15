@@ -96,6 +96,27 @@ main {
 .phone span, .email span {
     font-size: 16px;
 }
+.download-cv {
+    margin-left: 20px; 
+    background-color: #FFA500; 
+    border-radius: 5px;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.download-cv button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
 
+.download-cv button:hover {
+    color: rgb(255, 166, 2);
+    background-color: black;
 
+}
