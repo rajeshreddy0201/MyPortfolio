@@ -63,7 +63,30 @@ main {
 
 .welcome-note p {
     font-size: 18px;
-    color: #666;
+    color: rgb(255, 166, 2);
+
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.phone, .email {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.phone img, .email img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px;
+}
+
+.phone span, .email span {
+    font-size: 16px;
 }
 
 
