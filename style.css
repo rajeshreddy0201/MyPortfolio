@@ -31,4 +31,40 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    margin-right: 20px;
+}
+
+.welcome-note {
+    max-width: 600px;
+}
+
+.welcome-note h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.welcome-note p {
+    font-size: 18px;
+    color: #666;
+}
+
+
 
