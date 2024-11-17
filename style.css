@@ -25,17 +25,24 @@ nav ul li a {
 }
 
 
-nav ul li a:hover {
-    color: rgba(255, 166, 0, 0.957);
-    background-color:black;
+nav ul li a:hover, nav ul li a.active {
+    background-color: #ff7a57;
+    color: white;
     padding: 5px 10px;
     border-radius: 5px;
 }
+
 
 main {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.about {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: black;
 }
 
 .profile-section {
@@ -53,6 +60,7 @@ main {
 }
 
 
+
 .welcome-note {
     max-width: 600px;
 }
@@ -65,15 +73,15 @@ main {
 
 .welcome-note p {
     font-size: 18px;
-    color: rgb(255, 166, 2);
+    color: #6c757d;
 }
 
-.welcome-note p:hover {
-    color: rgb(255, 166, 2);
+/*.welcome-note p:hover {
+    color: #ff7a57;
     background-color: black;
     padding: 5px 10px;
     border-radius: 5px;
-}
+}*/
 
 .contact-info {
     margin-top: 20px;
@@ -97,7 +105,7 @@ main {
     font-size: 16px;
 }
 .download-cv button{
-    background-color: rgb(255, 166, 2);
+    background-color: #ff7a57;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -107,7 +115,7 @@ main {
 }
 
 .download-cv button:hover {
-    color: rgb(255, 166, 2);
-    background-color: black;
+    color: white;
+    background-color:rgb(255, 106, 0);
 
 }
