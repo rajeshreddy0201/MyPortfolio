@@ -1,121 +1,112 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
 
 nav ul {
     display: flex;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 0;
 }
 
 nav ul li {
-    margin-left: 80px;
+    margin-left: 40px;
 }
-
 
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
-nav ul li a:hover, nav ul li a.active {
+nav ul li a:hover,
+nav ul li a.active {
     background-color: #ff7a57;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
+.section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    margin-top: 50px; 
+}
 
-main {
+.home-section {
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 20px;
+    background-color: #f9f9f9;
 }
 
-.about {
-    margin-bottom: 20px;
-    font-size: 40px;
-    color: black;
+.about-section {
+    background-color: #f1f1f1;
+    text-align: center;
 }
 
 .profile-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 90%;
+    justify-content: center;
+    gap: 50px;
 }
 
 .profile-pic {
-    width: 500px; 
-    height: 650px; 
-    margin-right: 40px;
-    object-fit:cover; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-
-
-.welcome-note {
-    max-width: 600px;
+.profile-details h1 {
+    font-size: 36px;
+    margin: 10px 0;
 }
 
-.welcome-note h2 {
-    margin: 0;
-    font-size: 24px;
-    color: #333;
-}
-
-.welcome-note p {
-    font-size: 18px;
-    color: #6c757d;
-}
-
-/*.welcome-note p:hover {
-    color: #ff7a57;
-    background-color: black;
-    padding: 5px 10px;
-    border-radius: 5px;
-}*/
-
-.contact-info {
+.profile-details .download-cv {
     margin-top: 20px;
-}
-
-.phone, .email {
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #333;
     display: flex;
-    align-items: center;
+    gap: 10px;
 }
 
-.phone img, .email img {
-    width: 24px; 
-    height: 24px;
-    margin-right: 10px;
-}
-
-.phone span, .email span {
-    font-size: 16px;
-}
-.download-cv button{
+.download-cv button {
     background-color: #ff7a57;
     color: white;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
 }
 
 .download-cv button:hover {
-    color: white;
-    background-color:rgb(255, 106, 0);
+    background-color: #ff5733;
+}
 
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
 }
