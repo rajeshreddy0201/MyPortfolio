@@ -5,7 +5,6 @@ body, html {
     scroll-behavior: smooth;
 }
 
-
 header {
     position: fixed;
     top: 0;
@@ -13,19 +12,29 @@ header {
     width: 100%;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
     z-index: 1000;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0; 
+    color: #333;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
     list-style-type: none;
     margin: 0;
-    padding: 10px 0;
+    padding: 35px;
+    margin-right: 20px;
 }
 
 nav ul li {
-    margin-left: 40px;
+    margin-left: 30px; 
 }
 
 nav ul li a {
@@ -34,7 +43,7 @@ nav ul li a {
     font-size: 18px;
     padding: 8px 12px;
     border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    justify-content: right;
 }
 
 nav ul li a:hover,
@@ -46,7 +55,7 @@ nav ul li a.active {
 .section {
     padding: 100px 20px;
     min-height: 100vh;
-    margin-top: 50px; 
+    margin-top: 70px; 
 }
 
 .home-section {
@@ -65,19 +74,20 @@ nav ul li a.active {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 500px;
+    height: 600px;
     object-fit: cover;
+    margin-right: 50px;
 }
 
 .profile-details h1 {
     font-size: 36px;
     margin: 10px 0;
+    margin-left: 50px;
 }
 
 .profile-details .download-cv {
@@ -103,6 +113,7 @@ nav ul li a.active {
 .social-icons img {
     width: 30px;
     height: 30px;
+    margin-top: 30px;
     cursor: pointer;
     transition: transform 0.3s;
 }
