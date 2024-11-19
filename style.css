@@ -29,7 +29,7 @@ nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 35px;
+    padding: 30px;
     margin-right: 20px;
 }
 
@@ -81,13 +81,25 @@ nav ul li a.active {
     width: 500px;
     height: 600px;
     object-fit: cover;
-    margin-right: 50px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+.profile-details {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
 }
 
 .profile-details h1 {
-    font-size: 36px;
+    font-size: 50px;
     margin: 10px 0;
     margin-left: 50px;
+}
+
+.profile-details h2 {
+    font-size: 30px;
+    margin: 10px 0;
 }
 
 .profile-details .download-cv {
@@ -114,6 +126,7 @@ nav ul li a.active {
     width: 30px;
     height: 30px;
     margin-top: 30px;
+    margin-left: 15px;
     cursor: pointer;
     transition: transform 0.3s;
 }
