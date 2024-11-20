@@ -134,3 +134,12 @@ nav ul li a.active {
 .social-icons img:hover {
     transform: scale(1.2);
 }
+
+.profile-about {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 30px;
+    border-radius:50px;
+}
