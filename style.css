@@ -258,9 +258,9 @@ nav ul li a.active {
 
 .project-section {
     padding: 100px 20px;
-    margin-bottom: 50px; 
+    margin-bottom: 30px; 
     border-bottom: 2px solid #ddd; 
-    min-height: 80vh; 
+    min-height: 70vh; 
 }
 .project-details div {
     margin-bottom: 50px;
